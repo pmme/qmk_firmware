@@ -1,7 +1,7 @@
 #ifndef CONFIG_H
 #define CONFIG_H
 
-#define COMBO_COUNT 2
+#define COMBO_COUNT 0
 #define COMBO_TERM 100
 
 #include "config_common.h"

@@ -15,18 +15,18 @@ enum layers {
   ARRW,
 };
 
-enum combos {
-  LCOLON_ENTER,
-  DF_TAB,
-};
-
-const uint16_t PROGMEM lc_combo[] = {KC_L, KC_SCLN, COMBO_END};
-const uint16_t PROGMEM df_combo[] = {KC_D, KC_F, COMBO_END};
-
-combo_t key_combos[COMBO_COUNT] = {
-  [LCOLON_ENTER] = COMBO(lc_combo, KC_ENT),
-  [DF_TAB] = COMBO(df_combo, KC_TAB)
-};
+//enum combos {
+//  LCOLON_ENTER,
+//  DF_TAB,
+//};
+//
+//const uint16_t PROGMEM lc_combo[] = {KC_L, KC_SCLN, COMBO_END};
+//const uint16_t PROGMEM df_combo[] = {KC_D, KC_F, COMBO_END};
+//
+//combo_t key_combos[COMBO_COUNT] = {
+//  [LCOLON_ENTER] = COMBO(lc_combo, KC_ENT),
+//  [DF_TAB] = COMBO(df_combo, KC_TAB)
+//};
 
 enum custom_keycodes {
   TG_LENC = SAFE_RANGE,
@@ -45,7 +45,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
    * ,-----------------------------------------.              ,-----------------------------------------.
    * |  ESC |  Q   |  W   |  E   |  R   |  T   |              |   Y  |   U  |  I   |  O   |  P   | BSPC |
    * |------+------+------+------+------+------|              |------+------+------+------+------+------|
-   * |SHTAB |  A   |  S   |  D  tab F   |  G   |              |   H  |  J   |  K   |  L  ent ; : | ' "  |
+   * |SHTAB |  A   |  S   |  D   |  F   |  G   |              |   H  |  J   |  K   |  L   |  ; : | ' "  |
    * |------+------+------+------+------+------|              |------+------+------+------+------+------|
    * |CTCAP |  Z   |  X   |  C   |  V   |  B   |              |   N  |  M   |  , < |  . > |  / ? |SHENT |
    * `------+------+------+------+------+------'              `------+------+------+------+------+------'
