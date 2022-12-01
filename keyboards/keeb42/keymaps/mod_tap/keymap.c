@@ -56,7 +56,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
    */
   [BASE] = LAYOUT_keeb42(
       KC_ESC,               KC_Q,    KC_W,    KC_E,    KC_R,     KC_T,       KC_Y,    KC_U,    KC_I,    KC_O,    KC_P,    KC_BSPC,
-      MT(MOD_LSFT,KC_TAB),  LGUI_T(KC_A), LALT_T(KC_S), LSFT_T(KC_D), LCTL_T(KC_F), KC_G,   KC_H, RCTL_T(KC_J), RSFT_T(KC_K), LALT_T(KC_L), RGUI_T(KC_SCLN), KC_QUOT,
+      MT(MOD_LSFT,KC_TAB),  KC_A, LALT_T(KC_S), LSFT_T(KC_D), LCTL_T(KC_F), KC_G,   KC_H, RCTL_T(KC_J), RSFT_T(KC_K), LALT_T(KC_L), RGUI_T(KC_SCLN), KC_QUOT,
       MT(MOD_LCTL,KC_CAPS), KC_Z,    KC_X,    KC_C,    KC_V,     KC_B,       KC_N,    KC_M,    KC_COMM, KC_DOT,  KC_SLSH, MT(MOD_RSFT,KC_ENT),
          MT(MOD_LGUI,KC_DEL), LT(NUMB,KC_SPC), LT(SYMB,KC_ENT), TG_LENC,    TG_RENC, LT(ARRW,KC_SPC), KC_RALT, KC_RGUI
       ),
